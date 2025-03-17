@@ -1,0 +1,98 @@
+:root {
+    /* Theme colors */
+    --primary-color: #FFD700; /* Yellow */
+    --secondary-color: #000000; /* Black */
+    --text-color: #000000; /* Black text */
+    --background-color: #FFFFFF; /* White background */
+    --accent-color: #FFC107; /* Darker yellow for accents */
+    --hover-color: #FFE57F; /* Lighter yellow for hover states */
+  }
+  
+  /* Base styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--secondary-color) !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--hover-color) !important;
+  }
+  
+  /* Navbar customization */
+  .navbar-dark {
+    background-color: var(--secondary-color) !important;
+  }
+  
+  .navbar-dark .navbar-brand,
+  .navbar-dark .nav-link {
+    color: var(--primary-color) !important;
+  }
+  
+  .navbar-dark .dropdown-menu {
+    background-color: var(--secondary-color);
+  }
+  
+  .navbar-dark .dropdown-item {
+    color: var(--primary-color);
+  }
+  
+  .navbar-dark .dropdown-item:hover {
+    background-color: #333333;
+    color: var(--hover-color);
+  }
+  
+  /* Form elements */
+  .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 215, 0, 0.25);
+  }
+  
+  /* Form container */
+  .form-container {
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cards */
+  .card {
+    border-color: var(--secondary-color);
+  }
+  
+  .card-header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  /* Hero section */
+  .hero {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 3rem 0;
+  }
+  
+  /* Loader */
+  .spinner-border {
+    color: var(--primary-color) !important;
+  }
+  
+  /* Links */
+  a {
+    color: var(--accent-color);
+  }
+  
+  a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+  }

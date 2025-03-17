@@ -16,6 +16,8 @@ import store from './store';
 import { Provider } from 'react-redux';
 import ProfileScreen from './screens/ProfileScreen.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
+import './index.css';
+
 
 
 
