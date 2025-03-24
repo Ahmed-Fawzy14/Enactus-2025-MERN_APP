@@ -85,7 +85,7 @@ const LoginScreen = () => {
         <Button
           disabled={isLoading}
           type='submit'
-          variant='primary'
+          variant='primary' 
           className='mt-3'
         >
           Sign In
